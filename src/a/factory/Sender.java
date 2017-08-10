@@ -1,8 +1,8 @@
-package factory.ordinary;
+package a.factory;
 
 /**
  * Created by maomao on 16/12/12.
  */
 public interface Sender {
-    void Send();
+    void send();
 }

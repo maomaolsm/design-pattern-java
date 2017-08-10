@@ -1,4 +1,8 @@
-package factory.ordinary;
+package a.factory.ordinary;
+
+import a.factory.MailSender;
+import a.factory.Sender;
+import a.factory.SmsSender;
 
 /**
  * Created by maomao on 16/12/12.

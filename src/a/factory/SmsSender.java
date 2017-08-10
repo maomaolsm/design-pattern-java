@@ -1,11 +1,11 @@
-package factory.ordinary;
+package a.factory;
 
 /**
  * Created by maomao on 16/12/12.
  */
 public class SmsSender implements Sender {
     @Override
-    public void Send() {
+    public void send() {
         System.out.println("this is sms sender!");
     }
 }
