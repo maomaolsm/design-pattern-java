@@ -8,7 +8,7 @@ import fresh.factory.Phone;
  */
 public class SimpleFactor {
     public Phone getPhone(String name) {
-        if ("»ªÎª".equals(name)) {
+        if ("åä¸º".equals(name)) {
             return new Huawei();
         } else {
             return null;

@@ -3,7 +3,7 @@ package fresh.factory.abstr;
 import fresh.factory.Phone;
 
 /**
- * ³éÏó¹¤³§ÊÇÓÃ»§µÄÖ÷Èë¿Ú
+ * æŠ½è±¡å·¥å‚æ˜¯ç”¨æˆ·çš„ä¸»å…¥å£
  * Created by maomao on 2018/4/1.
  */
 public abstract class AbstractFactor {

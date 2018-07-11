@@ -5,13 +5,13 @@ package fresh.factory.simple;
  */
 public class SimpleFactorTest {
     public static void main(String[] args) {
-        //Ã»ÓÃ¹¤³§Ö®Ç°£¬ÎÒÃÇĞèÒª×Ô¼ºÈ¥newÒ»¸öÊÖ»ú
+        //æ²¡ç”¨å·¥å‚ä¹‹å‰ï¼Œæˆ‘ä»¬éœ€è¦è‡ªå·±å»newä¸€ä¸ªæ‰‹æœº
         //System.out.println(new Huawei());
 
-        //ÒıÈë¼òµ¥¹¤³§Ä£Ê½£¬Ö»ĞèÒªÎÒÃÇÈ¥newÒ»¸ö¹¤³§
-        //ÓÃ»§²»ĞèÒª¹ØĞÄÉú²ú¹ı³Ì£¬Ö»ĞèÒª¹ØĞÄ½á¹û
+        //å¼•å…¥ç®€å•å·¥å‚æ¨¡å¼ï¼Œåªéœ€è¦æˆ‘ä»¬å»newä¸€ä¸ªå·¥å‚
+        //ç”¨æˆ·ä¸éœ€è¦å…³å¿ƒç”Ÿäº§è¿‡ç¨‹ï¼Œåªéœ€è¦å…³å¿ƒç»“æœ
         SimpleFactor factor =new SimpleFactor();
-        System.out.println(factor.getPhone("»ªÎª"));
+        System.out.println(factor.getPhone("åä¸º"));
 
     }
 }

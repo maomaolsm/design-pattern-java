@@ -6,7 +6,7 @@ package fresh.factory.abstr;
 public class Test {
     public static void main(String[] args) {
 
-        //对用户而言更加简单，用户只有选择的权利，保证了程序的健壮
+        //瀵圭敤鎴疯�岃█鏇村姞绠�鍗曪紝鐢ㄦ埛鍙湁閫夋嫨鐨勬潈鍒╋紝淇濊瘉浜嗙▼搴忕殑鍋ュ．
         PhoneFactor factor=new PhoneFactor();
         System.out.println(factor.getHuawei());
     }
