@@ -1,6 +1,6 @@
 package old.abstractfactory;
 
-import old.factory.Sender;
+import factory.factory1.Sender;
 
 /**
  * Created by maomao on 17/8/9.

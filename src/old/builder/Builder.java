@@ -1,8 +1,8 @@
 package old.builder;
 
-import old.factory.MailSender;
-import old.factory.Sender;
-import old.factory.SmsSender;
+import factory.factory1.MailSender;
+import factory.factory1.Sender;
+import factory.factory1.SmsSender;
 
 import java.util.ArrayList;
 import java.util.List;

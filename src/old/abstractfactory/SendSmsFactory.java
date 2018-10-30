@@ -1,7 +1,7 @@
 package old.abstractfactory;
 
-import old.factory.Sender;
-import old.factory.SmsSender;
+import factory.factory1.Sender;
+import factory.factory1.SmsSender;
 
 /**
  * Created by maomao on 17/8/9.
