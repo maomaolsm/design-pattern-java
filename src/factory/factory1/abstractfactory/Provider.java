@@ -1,4 +1,4 @@
-package old.abstractfactory;
+package factory.factory1.abstractfactory;
 
 import factory.factory1.Sender;
 
