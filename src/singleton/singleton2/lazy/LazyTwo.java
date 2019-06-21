@@ -6,7 +6,6 @@ package singleton.singleton2.lazy;
 public class LazyTwo {
 
     private LazyTwo() {
-
     }
 
     private static LazyTwo lazyTwo = null;
@@ -14,7 +13,7 @@ public class LazyTwo {
     public static synchronized LazyTwo getInstance() {
 
         if (lazyTwo == null) {
-            return new LazyTwo();
+            lazyTwo = new LazyTwo();
         }
 
         return lazyTwo;

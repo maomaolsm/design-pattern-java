@@ -16,7 +16,7 @@ public class LazyOne {
 
     public static LazyOne getInstance() {
         if (lazyOne == null) {
-            return new LazyOne();
+            lazyOne = new LazyOne();
         }
         return lazyOne;
     }
