@@ -13,6 +13,7 @@ public class JDKProxyTest {
         Person object = (Person) new JDK58().getInstance(new ZhangSan());
         System.out.println(object.getClass());
         object.findJob();
+        object.buy();
 
 
         //字节码重组的原理
