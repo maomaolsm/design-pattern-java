@@ -9,6 +9,12 @@ public class LazyThreeTest {
     public static void main(String[] args) {
 
         try {
+
+            LazyThree lazyThree = LazyThree.getInstance();
+            LazyThree lazyThree1 = LazyThree.getInstance();
+            System.out.println(lazyThree);
+            System.out.println(lazyThree1);
+
             Class<?> clazz = LazyThree.class;
 
             //通过反射拿到私有的构造方法
@@ -23,6 +29,7 @@ public class LazyThreeTest {
             Object object2 = constructor.newInstance();
 
             System.out.println(object == object2);
+
         } catch (Exception e) {
             e.printStackTrace();
         }

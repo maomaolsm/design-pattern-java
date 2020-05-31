@@ -21,7 +21,8 @@ public class LazyThree {
         //避免反射入侵
         synchronized (LazyThree.class) {
             if (initialized == false) {
-                initialized = !initialized;
+//                initialized = !initialized;
+                initialized = true;
             } else {
                 throw new RuntimeException("单例被入侵");
             }

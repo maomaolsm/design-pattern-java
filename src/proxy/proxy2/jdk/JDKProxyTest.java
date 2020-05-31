@@ -29,7 +29,7 @@ public class JDKProxyTest {
         //通过反编译工具可以看到源代码
         try {
             byte[] bytes = ProxyGenerator.generateProxyClass("$Proxy0", new Class[]{Person.class});
-            FileOutputStream os = new FileOutputStream("E://$Proxy0.class");
+            FileOutputStream os = new FileOutputStream("c://Users//lx//$Proxy0.class");
             os.write(bytes);
             os.close();
         } catch (Exception e) {
